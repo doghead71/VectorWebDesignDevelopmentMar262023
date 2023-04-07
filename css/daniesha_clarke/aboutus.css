@@ -1,0 +1,15 @@
+body
+{ background-color: rgba(155, 104, 147, 0.3);
+    text-align: center;
+    color: black;
+    font-size: large;
+    
+}h1 
+{text-align: center;
+    color: black;
+    border: solid;
+    border-color: blueviolet;
+    font-size: 80px;
+    
+}
+
