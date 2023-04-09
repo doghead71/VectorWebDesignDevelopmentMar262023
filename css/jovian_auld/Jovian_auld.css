@@ -1,3 +1,8 @@
+body {
+        background-image: url("../../img/jovian_auld/Illustration.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
 
 h1 {
     color: whitesmoke;
