@@ -1,12 +1,12 @@
 h1 {
-    color: rgb(23, 0, 128);
+    color: rgb(0, 128, 21);
     text-align: center;
     font-weight: bold;
     font-style: italic;
     }
   body {
-    color: rgb(0, 255, 255);
-    background-color: grey;
+    color: rgb(255, 0, 179);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(yellow, blue);
   }
   
