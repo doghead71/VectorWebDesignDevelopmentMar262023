@@ -1,0 +1,27 @@
+body
+{ background-color: palevioletred;
+    text-align: center;  
+}
+p
+{ font-size: 45px;
+font-family: fantasy;}
+
+h1 
+{text-align: center;
+    color: blue;
+    border: solid;
+    border-color: black;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bolder;
+       
+}
+div
+{text-align: center;
+color:rgb(15, 8, 154);
+font-size: 45px;
+font-family: fantasy;
+}
+q
+{color: blue;
+}
