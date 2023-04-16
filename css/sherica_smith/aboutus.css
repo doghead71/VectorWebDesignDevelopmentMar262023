@@ -1,0 +1,31 @@
+body {
+    /*color: rgb(50, 20, 220);
+    background-color: rgb(172, 28, 28);
+    */
+    background-image: url(backgroungimg.jpg) ;}
+    { 
+    <div class ="row">
+    <div class="column">
+      <img src="image1.jpg" alt="rasta1" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="sherica_smith.jpg" alt="rasta" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="image2.jpg" alt="haircatch" style="width:100%">
+    </div>
+    
+
+}
+
+img {
+    border-radius: 50%;
+  }
+ 
+
+
+
+
+
+
+  
