@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   /**{
+        box-sizing: border-box;
+    }*/
+    .flex-container {
+    display: flex; 
+    background-color: palevioletred;
+    /*text-align:center;*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*align-items:center;*/
+ }
+ 
+ .flex-container > div {
+     background-color: floralwhite;
+     margin: 5px;
+     padding: 20px;
+     font-size: 25px;
+     flex: 15%;
+
+}
+
+@media (max-width: 750px) {
+.flex-container > div{
+        flex:49%;
+    }
+}
+
+@media (max-width: 400px) {
+.flex-container > div{
+        flex:100%;
+    }
+}
+</style>
+</head>
+<body>
+
+    <h1>Flexbox Image</h1>
+
+<div class="flex-container">
+<div class="item">
+    <img src="../../img/kiana_pryce/kianafloat1.jpg" width="200" height="200"/>  
+</div>
+<div class="item">
+    <img src="../../img/kiana_pryce/kianafloat2.jpg" width="200" height="200"/>  
+</div>
+<div class="item">
+    <img src="../../img/kiana_pryce/kianafloat3.jpg" width="200" height="200"/>  
+</div>
+<div class="item">
+    <img src="../../img/kiana_pryce/kianafloat4.jpg" width="200" height="200"/>  
+
+</div>
+</div>
+<div class = "p" >
+    <p>
+    <br> <br>
+    I LOVE JAMAICA.
+    </p>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+</body>
