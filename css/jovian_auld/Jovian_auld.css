@@ -1,0 +1,30 @@
+body {
+        background-image: url("../../img/jovian_auld/Illustration.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+h1 {
+    color: whitesmoke;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color:white;
+}
+
+p {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+li {
+    color: white;
+}
+h6 {
+    color: yellow;
+}
