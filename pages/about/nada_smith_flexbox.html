@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        *{
+        box-sizing: border-box;
+        }
+       .flex-container{
+        display:flex;
+        background-color: blueviolet;
+        text-align: center;
+        flex-wrap:wrap;
+        flex-direction: row;
+        align-items: center;
+        align-content: space-between;
+        justify-content: center;
+       }
+       .flex-container>div{
+        background-color: aquamarine;
+        margin: 1px;
+        padding:20px;
+        flex:24%;
+             }
+       @media(max-width:750px) {
+       .flex-container>div{
+            flex:35%;
+        }
+    }
+       @media(max-width:400px) {
+       .flex-container>div{
+            flex:50%;
+        }
+       }
+    </style>
+</head>
+
+<body>
+    <h2>Images of me in flex</h2>
+
+    <div class="flex-container">
+
+        <div class="img-container">
+            <img src="../../img/nada_smith/Saved Pictures/pic2.jpg" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="../../img/nada_smith/Saved Pictures/pic2.jpg" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="../../img/nada_smith/Saved Pictures/pic2.jpg" style="width:100%">
+        </div>
+        <div class="img-container">
+            <img src="../../img/nada_smith/Saved Pictures/pic2.jpg" style="width:100%">
+        </div>
+    </div>
+    <p> These are pictures of myself in flex.</p>
+</body>
+</html>
