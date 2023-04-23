@@ -3,26 +3,47 @@
 
 <head>
     <style>
-* { 
-    box-sizing: border-box;
-}
-.img-container {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+        * {
+            box-sizing: border-box;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+
+        }
+
+        .flex-container> div {
+            margin: 0px;
+            padding: 10px;
+            flex: 25%
+
+        }
     </style>
 </head>
+
 <body>
     <h2>Images Side By Side</h2>
     <p>Float images side by side:</p>
-    <div class="clearfix">
-    <div class="img-container">
-        <img src=
+    <div class="flex-container">
+        <div>
+            <img src="../../img/terrence_walford/pexels-francesco-paggiaro-2209315.jpg" alt="pexels-francesco-paggiaro-2209315.jpg" style="width: 100%">
+        </div>
+        <div>
+            <img src="../../img/terrence_walford/pexels-isabella-mendes-860707.jpg" alt="pexels-isabella-mendes-860707.jpg" style="width: 100%">
+        </div>
+        <div>
+            <img src="../../img/terrence_walford/pexels-marlene-1493004.jpg" alt="pexels-marlene-1493004.jpg" style="width: 100%">
+        </div>
+        <div>
+            <img src="../../img/terrence_walford/pexels-pixabay-164745.jpg" alt="pexels-pixabay-164745.jpg" style="width: 100%">
+        </div>
     </div>
+
+    <p>
+Testing
+
+    </p>
 </body>
