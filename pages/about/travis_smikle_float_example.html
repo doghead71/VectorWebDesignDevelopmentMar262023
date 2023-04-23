@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Float example</title>
+        <style> *{box-sizing:border-box;}
+        .img-container {
+            float:left;
+            width:25%;
+            padding: 5px;
+        }
+        .clearfix::after{
+            content: "";
+            clear: both;
+            display:table;
+        }
+        </style>
+    </head>
+    
+    <body>
+        <h2>Side by side images</h2>
+        <p>Float images side by side:</p>
+
+        <div class="clearfix">
+            <div class="img-container">
+            <img src="../../img/travis_smikle/bird.jpg" alt="Bird"
+            style="width:100%"> 
+            </div>
+
+            <div class="img-container">
+            <img src="../../img/travis_smikle/road.jpg" alt="Road"
+            style="width:100%">
+            </div>
+
+            <div class="img-container">
+            <img src="../../img/travis_smikle/sky.jpg" alt="sky"
+            style="width:100%">
+            </div>
+
+            <div class="img-container">
+            <img src="../../img/travis_smikle/tree.jpg" alt="Tree"
+            style="width:100%">
+            </div>
+
+        </div>
+       
+        <p>This sentence is a test to see how the float example will look on this page.</p>
+
+    </body>
+
+
+</html>
