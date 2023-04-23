@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(0, 128, 21);
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    }
+    img {
+  border-radius: 50%;
+}
+  body {
+    color: rgb(255, 0, 179);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(yellow, blue);
+  }
+  
