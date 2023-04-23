@@ -1,8 +1,7 @@
 body {
-    color: rgb(50, 20, 220);
-    background-color: rgb(172, 172, 28);
-    
+    color:white;
+    /*color: rgb(50, 20, 220);
+    background-color: rgb(151, 164, 227);*/
+   background-image: url(bkground.jpg); 
 }
-/* p {
-    color:red !important;
-} */
+ 

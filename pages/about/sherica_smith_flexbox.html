@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+             *{
+                box-sizing: border-box;
+            }
+            .flex-container{
+                display: flex;
+                background-color: aqua;
+                flex-wrap: wrap;
+                
+                
+            }
+            .flex-container > div {
+                background-color: pink;
+                margin: 0px;
+                padding: 20px;
+                font-size: 20px;
+                /**width: 250px;*/
+                flex: 24%;
+                
+            }
+  
+ @media 
+                (max-width: 750px)
+{.flex-container> div{
+    flex: 49%;
+}
+}
+@media 
+                (max-width: 400px)
+{.flex-container> div{
+    flex: 100%;
+}
+}         
+        </style>
+    </head>
+    <body>
+        <h1>A Short Story....</h1>
+        <div class="flex-container">
+            <div class="flex-container">
+                <img src="../../img/sherica_smith/lily.jpeg" alt="flowers1" style="width:100%">
+            </div>
+            <div class="flex-container">
+            <img src="../../img/sherica_smith/pink.jpeg" alt="flowers2" style="width:100%">
+        </div>
+            <div class="flex-container">
+            <img src="../../img/sherica_smith/purple.jpeg"alt="flowers3" style="width:100%">
+            </div>
+            <div class="flex-container">
+                <img src="../../img/sherica_smith/sunflower.jpg" alt="flowers4" style="width:100%">
+        </div>
+        </div>
+        <h3> I like to look at flowers, do not know their names and i am not willing to take care of them.</h3>
+    </body>
+</html>
