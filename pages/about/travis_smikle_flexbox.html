@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Flexbox example</title>
+        <style> 
+        *{
+            box-sizing: border-box;
+        }
+        .flex-container 
+        {
+            display: flex;
+            background-color:midnightblue;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+        }
+        
+        .flex-container > div
+         {
+            background-color: #f1f1f1;
+            margin: 0px;
+            font-size: 20px;
+            padding: 20px;
+            flex: 25%;
+            width: 100%;
+        }
+        @media (max-width:400px) {.flex-container>div{flex:100}}
+
+        @media (max-width:750px) {.flex-container>div{flex:50}}
+        </style>
+    </head>
+    
+    <body>
+        <h1>Create a Flex Container</h1>
+        <p>Flexbox images:</p>
+
+        <div class="flex-container">
+            <div>
+            <img src="../../img/travis_smikle/bird.jpg" alt="Bird"
+            style="width:100%"> 
+            </div>
+
+            <div>
+            <img src="../../img/travis_smikle/road.jpg" alt="Road"
+            style="width:100%">
+            </div>
+
+            <div>
+            <img src="../../img/travis_smikle/sky.jpg" alt="sky"
+            style="width:100%">
+            </div>
+
+            <div>
+            <img src="../../img/travis_smikle/tree.jpg" alt="Tree"
+            style="width:100%">
+            </div>
+
+        </div>
+       
+        <p>This sentence is a test to see how the flexbox example will look on this page. This example will show how the text will display relative to the images.</p>
+
+    </body>
+
+
+</html>
