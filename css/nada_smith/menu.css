@@ -1,0 +1,25 @@
+*/
+.logo{
+    width:100px;
+    height:100px;
+    display:inline-block;
+}
+
+body {
+  color:#8a2be2;
+  font-style:serif; 
+  font-weight: bold;
+  font-size: large;
+  background-color:#e5dcc3;
+}
+
+ul li a{
+  display:block;
+  color:#333;
+  padding:5px;
+}
+
+ul li:hover{
+  display:inline-block;
+  background-color:#ffd93d;
+}
