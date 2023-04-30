@@ -1,0 +1,37 @@
+nav {
+    background-color: black;
+    text-align: center;
+    height: 80px;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 1px 16px;
+    display: inline-block;
+    font-size: 150%;
+
+  }
+  
+  nav ul li {
+    display: inline-block;
+    border-right:1px solid #bbb;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    
+  }
+  li a:hover {
+    background-color: #333;
+  }
+
+  #logo {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    left: 8px;
+  }
