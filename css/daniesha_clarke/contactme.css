@@ -4,7 +4,7 @@ body {
   * {
     box-sizing: border-box;
   }
-  input[type=text], input [type=number],
+  input[type=text],
   textarea {
     width: 100%;
     padding: 10px;
@@ -15,14 +15,14 @@ body {
     margin-bottom: 20px;
     resize: vertical;
   }
-  input[type=submit] {
+  button {
     background-color: lightblue;
     color: black;
     padding: 12px 20px;
     border: 2px solid rgb(170, 59, 59);
     
   }
-  input[type=submit]:hover {
+  button:hover {
     background-color: #6fe8d7;
   }
   .formcon {

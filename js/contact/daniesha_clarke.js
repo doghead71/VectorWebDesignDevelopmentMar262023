@@ -30,5 +30,9 @@ function submitContactForm(event){
      
     let message = document.getElementById("message").value;
     console.log("Subject is: " + message);
+
+    let messagecontainer=document.getElementById("messages");
+    messagecontainer.innerHTML=("Form submitted successfully")
+
 }
 
