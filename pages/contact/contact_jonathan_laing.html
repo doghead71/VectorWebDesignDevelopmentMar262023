@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jonathan_laing/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../../img/jonathan_laing/logo.png" alt="My Website Logo">
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+    </header>   
+
+    <h1>Contact Form</h1>
+
+    <div id="error-message" class="error-message"></div>
+
+    <form id="contact-form" action="#" >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email.."required><br>
+
+        <label for="telephone">Telephone Number:</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="Your number.."required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+ 
+</body>
+</html>
