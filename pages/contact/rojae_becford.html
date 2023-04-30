@@ -1,55 +1,31 @@
-<script>
-    function validateForm() {
-      var name = document.forms["myForm"]["yourname"].value;
-      var email = document.forms["myForm"]["lastname"].value;
-      var phone = document.forms["myForm"]["Telenum"].value;
-      if (name == "" || email == "" || phone == "") {
-        alert("Name, Email and Telephone number must be filled out");
-        return false;
-      }
-    }
-    </script>
-    
-    
-    
-    
     <html>
     <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/rojaebeckford/contactus.css">
-    <script>
-    function validateForm() {
-      var name = document.forms["myForm"]["yourname"].value;
-      var email = document.forms["myForm"]["lastname"].value;
-      var phone = document.forms["myForm"]["Telenum"].value;
-      if (name == "" || email == "" || phone == "") {
-        alert("Name, Email and Telephone number must be filled out");
-        return false;
-      }
-    }
-    </script>
     </head>
     <body>
     
     <h3>Contact Us Form</h3>
     
     <div class="container">
-      <form action="/action_page.php" name="myForm" onsubmit="return validateForm()">
+      <form name="myForm" id= contactForm onsubmit="return validateForm()">
         <label for="fname">Name</label>
         <input type="text" id="fname" name="yourname" placeholder="Your name..">
     
         <label for="email">Email</label>
-        <input type="text" id="Email" name="lastname" placeholder="your email..">
+        <input type="text" id="email" name="lastname" placeholder="your email..">
     
-        <label for="email">Telephone number</label>
-        <input type="number" id="Email" name="Telenum" placeholder="your phone number..">
+        <label for="Telephone">Telephone number</label>
+        <input type="number" id="tele" name="Telenum" placeholder="your phone number..">
     
         <label for="subject">Leave your message below</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
     
-        <input type="submit" value="Submit">
+        <!--<input type="submit" value="Submit">-->
+        <button class ="button button1" button onclick="submitcontactForm(event)" id="button" >Submit</button>
       </form>
     </div>
+    <script src="../../js/contact/rojae_beckford.js"></script>
     
     </body>
     </html>
