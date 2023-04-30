@@ -1,43 +1,32 @@
-legend {
-    font-size: 30px;
-    font-weight: bolder;
-}
-.formcon {
-    display: flex;
-    padding: 50px;
-    margin: 20px;
-}
-form {
-    width: 100%;
-    background-color: bisque;
-    margin: 20px 20px;
-    font-size: 20px;
-    display: flex;
-    padding: 50px 50px;
-    
-}
-
-input [type=text] input [type=email] input [type=number] {
-    width: 100%;
-    padding: 50px 50px;
-    margin: 10px 10px;
-    border: 2px solid lightcoral;
-    background-color: lightgray;
+body {
+    font-family: Arial;
+  }
+  * {
     box-sizing: border-box;
-    
-
-}
-input [placeholder] {
+  }
+  input[type=text], input [type=number],
+  textarea {
     width: 100%;
-    padding: 50px 50px;
-}
-
-input [type=text]:hover {
-    background-color: rgb(36, 156, 144);
-}
-input [type=submit] {
-    background-color: burlywood;
-    border: 2px solid black;
-    margin: 2px 2px;
-}
-
+    padding: 10px;
+    border: 2px solid #eeeeee;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: lightblue;
+    color: black;
+    padding: 12px 20px;
+    border: 2px solid rgb(170, 59, 59);
+    
+  }
+  input[type=submit]:hover {
+    background-color: #6fe8d7;
+  }
+  .formcon {
+    border-radius: 4px;
+    background-color: lavender;
+    padding: 20px;
+  }
