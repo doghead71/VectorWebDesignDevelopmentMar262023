@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Flex container</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                }
+            .flex-container {
+                display: flex;
+                background-color:aqua;
+                flex-wrap: wrap;
+                    }
+            .flex-container > div {
+                background-color:rgb(233, 233, 103);
+                margin: 5px;
+                padding: 10px;
+                flex: 24%;
+                
+                         }
+            @media (max-width: 750px) {
+                    .flex-container > div{
+                        flex: 50%;
+                    }
+            } 
+        
+            @media (max-width: 400px) {
+                    .flex-container > div{
+                        flex: 80%;
+                    }
+            } 
+                
+        </style>
+    </head>
+        <body> 
+            <h1>Flex images</h1> 
+            <div class="flex-container">
+                <div> 
+                    <img src="../../img/jovian_auld/drone.jpg" alt="drone" style="width: 100%">
+                </div>
+                <div> 
+                    <img src="../../img/jovian_auld/Meta.jpg" alt="meta" style="width: 100%">
+                </div>
+                <div> 
+                    <img src="../../img/jovian_auld/processor.jpg" alt="processor" style="width: 100%">
+                </div>
+                <div>
+                    <img src="../../img/jovian_auld/robot.jpg" alt="robot" style="width: 100%">
+                </div>
+            </div>
+            <p>In this webpage design I use the float technique to place four images inline and a paragraph below the images</p>
+        </body>
+</html>
