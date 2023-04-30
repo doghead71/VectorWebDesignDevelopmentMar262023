@@ -1,0 +1,30 @@
+img {
+    width: 80px;
+    height: 80px;
+    padding-left: 1%; 
+    }
+li {
+        float: left;
+        padding: 8px;
+        list-style: none;
+        color: black;
+        font-style: italic;
+    }
+h2 {
+    padding-top: 5%;
+}
+div {
+    background-color: rgb(94, 211, 94);
+}
+label {
+    font-style: oblique;
+    padding: 10%;    
+}
+input {
+    width:100%
+      
+}
+body {
+    background-color: beige;
+}
+
