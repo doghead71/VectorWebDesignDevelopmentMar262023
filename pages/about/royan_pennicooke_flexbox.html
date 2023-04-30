@@ -1,0 +1,74 @@
+<doctype html>
+    <html>
+      <head>
+        <style>
+
+*{
+                box-sizing: border-box;
+            }
+            .flex-container{
+                display: flex;
+                background-color: aqua;
+                flex-wrap: wrap;
+                
+                
+            }
+            .flex-container > div {
+                background-color: green;
+                margin: 0px;
+                padding: 20px;
+                font-size: 20px;
+                flex: 24%;
+            }
+
+
+          
+
+            @media
+                (max-width: 750px) {
+                .flex-container> div{
+                flex: 49%;
+                }    
+            }
+
+            @media
+                (max-width: 400px) {
+                .flex-container> div{
+                    flex: 100%;
+                }    
+            }
+
+
+
+
+
+         </style>
+      </head>
+      <body>
+        <h2>Parts of the body </h2>
+        <p>I will make images of the body flex as the page is adjusted:</p>
+            
+            <div class="flex-container">
+
+                <div class="flex-container">
+                <img src="../../img/royan_pennicooke/arm.jpg" alt="upper body parts" style="width:100%">
+            </div>
+
+            <div class="flex-container">
+              <img src="../../img/royan_pennicooke/eye.jpg" alt="face part1" style="width:100%">
+             </div>
+    
+            <div class="flex-container">
+            <img src="../../img/royan_pennicooke/foot.jpg" alt="lower body part" style="width:100%">
+             </div>
+    
+            <div class="flex-container">
+            <img src="../../img/royan_pennicooke/nose.jpg" alt="face part2" style="width:100%">
+             </div>
+            </div>
+            <p> I love body parts. We wouldn't exist without them.</p>
+                
+        </body>
+        
+    </html>
+    
