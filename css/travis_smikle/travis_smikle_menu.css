@@ -1,0 +1,71 @@
+header {
+    background-color:rgb(124, 164, 202);
+    
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia;
+     margin-right: 10px;
+}
+body {
+    background-color:rgb(107, 74, 197);
+}
+
+div img {
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+div nav{
+    display: flex;
+    align-items: normal;
+} 
+div.nbar{
+    display: flex;
+}
+
+div.logo {
+    width: 10%;
+    display: flex;
+    }
+div p {
+    padding: 20px;
+    font-weight: bold;    
+}    
+p { 
+    font-size: 20px;
+    font-family: serif;
+}
+div ul {
+    margin-left: 800px;
+    
+
+    
+}
+li { 
+    display: inline;
+    
+}
+
+li a {
+    
+    color: rgb(12, 6, 102);
+    font-size: 18px; 
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 5px; 
+    font-style: italic ; 
+    
+}
+    
+
+div li a:hover{
+    background-color: rgb(129, 209, 135);
+    color: white;
+    
+}
