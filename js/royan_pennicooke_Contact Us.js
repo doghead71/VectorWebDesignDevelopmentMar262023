@@ -36,6 +36,8 @@ function submitContactForm(event){
 
     //output message
 
-    let messageContainer = document.getElementById("messages");
-    messageContainer.InnerHTML = "Form successfully submitted";
+
+    let messagecontainer=document.getElementById("messages");
+    messagecontainer.innerHTML=("Form successfully submitted")
+
 }
