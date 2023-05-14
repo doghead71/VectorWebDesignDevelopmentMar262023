@@ -4,11 +4,15 @@
 </head>
 <link rel="stylesheet" href="../../css/christopher_burnett/christopher_burnett_contacts.css">
 <body>
+	<div class="video-container">
+	s
+			<source src="../../../../../../Downloads/11.mp4" type="video/mp4">
+		</video>
 	<h1>Contact Us</h1>
 	<div id="error-message"></div>
-	<form method="post" action="submit-form.php">
+	<form method="post" action="submit-form.php" style="font-family: sans-serif;">
 		<label for="name">Name:</label>
-		<input type="text" id="name" name="name" re>
+		<input type="text" id="name" name="name" required>
 		<br>
 		<label for="email">Email:</label>
 		<input type="email" id="email" name="email" required>
@@ -17,10 +21,14 @@
 		<input type="tel" id="telephone" name="telephone" required>
 		<br>
 		<label for="message">Message:</label>
-		<textarea id="message" name="message" required></textarea>
+		<input type="text" name="message_box" placeholder="Type your message here..."required style="font-family: sans-serif;">
+	
+		<br>
 		<br>
 		<input type="submit" value="Submit">
 	</form>
+	
+	<script src="../../js/contact/christopher_burnett.js"></script>
 
 </body>
 </html>

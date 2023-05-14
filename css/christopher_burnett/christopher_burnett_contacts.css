@@ -1,52 +1,95 @@
-body h1 {
-   
-    font-family: sans-serif;
-    position: relative;
-    background-color: #4400ff;
-		color: rgb(255, 255, 255);
-		padding: 2px 20px;
-		left: 540 ;
-        top: 22 ;
-		border-radius: 50px;
-		cursor: pointer; 
-    
-  }
-  form input {
-    
-    display: block;
-    width: 100%;
-    padding: 10px; 
-    margin-bottom: px;
-    font-size: 16px; 
-    border-radius: 3px;
-    border: 1px solid #ccc; 
-    box-sizing: border-box; 
-  }
- form  {
-background-image: url(../../img/christopher_burnett/asphatltbackg.jpg);
-  color: white;
+body {
+  
+  background-image: url(../../img/christopher_burnett/asphatltbackg.jpg);
+    background-size: cover;
+    color: #000;
+  margin: 0;
+}
 
-  border: none;
+div video {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+  mix-blend-mode: overlay;
+  
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+form {
+  
+  box-shadow: 0 0 20px #ffffff;
+  box-shadow: 0 0 10px #ffff85;
+  margin: 0 auto;
+  background-image: url(../../img/christopher_burnett/asphatltbackg.jpg);
+  color: white;
+  border: 3px solid rgb(255, 255, 255);
   border-radius: 5px;
   cursor: pointer;
+  width: 400px; 
+  padding: 20px; 
+  
 }
-body {
-    background-image: url(../../img/christopher_burnett/asphatltbackg.jpg);
-}
-form input[type=submit]:hover  {
-    font-size: 16px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    color: #fff;
-    background-color: #4400ff;
-    box-shadow: 0 0 10px #4400ff;
-    transition: box-shadow s ease-in-out;
 
-    color: white;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 0 20px #a9fbff;
-    
-    border-radius: 0;
-  }
+h1 {
+  color: #ffffff;
+  font-family: sans-serif;
+  position: relative;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  padding: 50px 20px;
+
+
+  
+  top: 0%;
+  text-align: center;
+  vertical-align: top;
+
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+form input {
+  top: 111%;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #00eaff;
+  box-sizing: border-box;
+}
+
+form input[type=submit]:hover {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #ffffff;
+  transition: box-shadow s ease-in-out;
+  color: rgb(41, 0, 106);
+  border: none;
+  cursor: pointer;
+ 
+  border-radius: 0;
+}
