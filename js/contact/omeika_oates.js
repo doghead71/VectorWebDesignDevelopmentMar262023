@@ -25,8 +25,8 @@ function submitContactForm(event){
     console.log("Email is: " + email);
 
      //get user input from contact number field
-    let contactNumber = document.getElementById("contact_number").value;
-    console.log("Contact number is: " + contactNumber);
+    let Telephone_Number = document.getElementById("Telephone_number").value;
+    console.log("Telephone_number is: " + Telephone_Number);
 
      //get user input from subject field
     let subject = document.getElementById("subject").value;
