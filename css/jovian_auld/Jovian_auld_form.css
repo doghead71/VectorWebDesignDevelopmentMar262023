@@ -14,7 +14,9 @@ h2 {
     padding-top: 5%;
 }
 .title {
-    background-color: rgb(6, 88, 6);
+    background-color: rgb(5, 80, 5);
+
+
 }
 label {
     font-style: oblique;
@@ -34,6 +36,16 @@ cursor: pointer;
 border-radius: 4px;
 }
 
+.nav {
+    padding: 5px;
+    justify-self: auto;
+    word-spacing: 20px;
+    background-color: aliceblue;
+}
+a:hover {
+    background-color: gray;
+    
+}
 input[type=submit]:hover {
 background-color: rgb(5, 80, 5);
 }

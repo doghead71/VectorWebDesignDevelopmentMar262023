@@ -4,18 +4,20 @@
     </head>
     <body>
         <div class="title">
-            <img src="../../img/jovian_auld/landscape-logo.jpg" alt="logo">
+            <img src="../../img/jovian_auld/landscape-logo.jpg" alt="logo"></div>
+        <div class="nav">
             <nav>    
-                <li><a="">About us</a></li>
-                <li><a=""></a>Products</a></li>
-                <li><a="">Contact</a></li>
-                <li><a="">Search</a></li>
+                <a href="">About</a>
+                <a href="">Products</a>
+                <a href="">Contact</a>
+                <a href="">Search</a>
             </nav> 
         </div>
+        
         <div id="error-message"></div>
         <h2>Contact US</h2>
         <div class="Container">
-        <form action="/action_page.php">
+        <form id="contactForm">
            <label for="fname">First name:</label>
             <input type="text" id="fname" name="first name" placeholder="enter First name...">
 
@@ -34,5 +36,6 @@
             <input type="submit" value="Submit" >
           </form> 
         </div>
+        <script src="../../js/contact/jovian_auld.js"></script>
     </body>
 </html>
